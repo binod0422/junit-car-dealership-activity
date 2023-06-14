@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class CarDealership {
 
-    private ArrayList<Car> inventory = new ArrayList<>();
+    public ArrayList<Car> inventory = new ArrayList<>();
     private double moneyMade = 0;
-    private double budget = 30000;
+    public double budget = 30000;
     private double dealerMarkUp = 1.2;
 
     public String addCar(Car car){
