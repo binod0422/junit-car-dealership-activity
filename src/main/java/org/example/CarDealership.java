@@ -6,7 +6,7 @@ public class CarDealership {
 
     public ArrayList<Car> inventory = new ArrayList<>();
     private double moneyMade = 0;
-    public double budget = 30000;
+    private double budget = 30000;
     private double dealerMarkUp = 1.2;
 
     public String addCar(Car car){
@@ -26,6 +26,30 @@ public class CarDealership {
 
     public int getInventoryCount(){
         return this.inventory.size();
+    }
+
+    public double getMoneyMade() {
+        return moneyMade;
+    }
+
+    public void setMoneyMade(double moneyMade) {
+        this.moneyMade = moneyMade;
+    }
+
+    public double getBudget() {
+        return budget;
+    }
+
+    public void setBudget(double budget) {
+        this.budget = budget;
+    }
+
+    public double getDealerMarkUp() {
+        return dealerMarkUp;
+    }
+
+    public void setDealerMarkUp(double dealerMarkUp) {
+        this.dealerMarkUp = dealerMarkUp;
     }
 
     public static void main(String[] args) {
